@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/RWADP1/ProjectDefinition.json",
+  "title": "RWADP1",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "RWADP1",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "f6c3f1f5-ff94-4a27-b413-f31037861a2f",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_UtilityBill.json",
+      "title": "Utility Bill",
+      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+    },
+    {
+      "$ref": "CD_BillOfLading.json",
+      "title": "Bill of Lading",
+      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+    },
+    {
+      "$ref": "CD_Invoice.json",
+      "title": "Invoice",
+      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    }
+  ],
+  "ba_caDefinitions": "caDefinitions.json",
+  "ba_caProjectDescriptor": "88451727-d508-46d9-bac6-9bb513dd90c0",
+  "ba_snapshotName": "v1-2023-01-05-1807",
+  "ba_versionId": "e045b9bd-d923-4fcd-9b22-d4efbf473454",
+  "ba_caMLModel": "MLmodel.zip",
+  "ba_versionNotes": "",
+  "ba_caClassificationModelTrainingId": "b785c1b7-f0fb-4986-b89f-47d6d38a1c94",
+  "ba_caDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6"
+}
