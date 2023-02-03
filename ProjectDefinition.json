@@ -45,5 +45,8 @@
   "ba_versionNotes": "",
   "ba_versionId": "37e6f88b-8d64-4b06-9592-55f6f3db5ab9",
   "ba_caClassificationModelTrainingId": "b785c1b7-f0fb-4986-b89f-47d6d38a1c94",
-  "ba_caDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6"
+  "ba_caDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6",
+  "ba_caDeployedClassificationModelTrainingId": "b785c1b7-f0fb-4986-b89f-47d6d38a1c94",
+  "ba_caDeployedDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6",
+  "ba_deploy_repo_id": "DEVOS1"
 }
