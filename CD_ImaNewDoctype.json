@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/projects/RWADP1/CD_ImaNewDoctype.json",
+  "title": "RWADP1 Document Type Definitions",
+  "lastUpdatDate": "",
+  "lastUpdate": "",
+  "comment": "This is a Doc Type Definition showing some different property types",
+  "baForDeployment": false,
+  "definitions": {
+    "ImaNewDoctype": {
+      "$id": "#ImaNewDoctype",
+      "title": "ImaNew Doctype",
+      "allOf": [
+        {
+          "$ref": "http://www.ibm.com/dba/schemas/#systemDocument"
+        },
+        {
+          "type": "object",
+          "description": "",
+          "baclass": {
+            "caDocTypeId": "729d0c23-3d5c-4f25-85ee-aa40aa7924a2",
+            "defaultRetentionPeriod": "Indefinite",
+            "retentionPeriodUnits": ""
+          },
+          "properties": {}
+        }
+      ]
+    }
+  }
+}

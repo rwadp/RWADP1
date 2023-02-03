@@ -5,9 +5,22 @@
   "ba_description": "",
   "ba_type": "content",
   "ba_repoPrimaryKey": "RWADP1",
-  "ba_expectedDocTypes": 0,
   "ba_id": "f6c3f1f5-ff94-4a27-b413-f31037861a2f",
-  "ba_dataDefinitions": [],
+  "ba_expectedDocTypes": 0,
+  "ba_dataDefinitions": [
+    {
+      "$ref": "proj://CDD/DD_71fbe5b1-5ae0-40c3-9e3c-266c6dc87ffa_Accountnumber.json",
+      "title": "Account number"
+    },
+    {
+      "$ref": "proj://CDD/DD_a87722f8-8415-481f-bb11-f6c6dd5e36de_Shipper.json",
+      "title": "Shipper"
+    },
+    {
+      "$ref": "proj://CDD/DD_d98def6f-3d0d-49a6-8796-ccf97991a6a6_Invoicenumber.json",
+      "title": "Invoice number"
+    }
+  ],
   "ba_contentDefinitions": [
     {
       "$ref": "CD_UtilityBill.json",
@@ -27,13 +40,10 @@
   ],
   "ba_caDefinitions": "caDefinitions.json",
   "ba_caProjectDescriptor": "88451727-d508-46d9-bac6-9bb513dd90c0",
-  "ba_snapshotName": "v1-2023-01-05-1807",
-  "ba_versionId": "e045b9bd-d923-4fcd-9b22-d4efbf473454",
   "ba_caMLModel": "MLmodel.zip",
+  "ba_snapshotName": "v2-2023-02-03-1724",
   "ba_versionNotes": "",
+  "ba_versionId": "37e6f88b-8d64-4b06-9592-55f6f3db5ab9",
   "ba_caClassificationModelTrainingId": "b785c1b7-f0fb-4986-b89f-47d6d38a1c94",
-  "ba_caDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6",
-  "ba_caDeployedClassificationModelTrainingId": "b785c1b7-f0fb-4986-b89f-47d6d38a1c94",
-  "ba_caDeployedDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6",
-  "ba_deploy_repo_id": "DEVOS1"
+  "ba_caDataExtractionModelTrainingId": "57016ba3-1565-4b42-a91e-17c13a5617d6"
 }
